@@ -1,0 +1,241 @@
+@font-face {
+font-family: 'AR-CENA';
+font-style: normal;
+font-weight: normal;
+src: local('AR CENA'), url('ARCENA.woff') format('woff');
+src: local('AR CENA'), url('ARCENA.ttf') format('truetype');
+	
+}
+
+body{
+	background-color:#333;
+	font-family: "AR CENA", "Rancho", cursive;
+	color:#666;
+	
+}
+
+h1, h2, h3{
+	font-family: "AR CENA", "Rancho", cursive;
+	color:#333;
+}
+
+.fh5co-tab-wrap .fh5co-tab-menu li a:hover .menu-text{
+  color: #fff;
+  
+}
+.fh5co-tab-wrap .fh5co-tab-menu li a:hover .fa {
+  bottom: 10px;
+  color: #fff;
+}
+
+.fh5co-feature .fh5co-text p{
+	line-height: 1;
+}
+
+.fh5co-tab-wrap .fh5co-tab-menu li a .menu-text {
+  color: #333;
+}
+
+.fa {
+	color: #333;
+}
+
+#fh5co-main {
+  max-width: 760px;
+  min-height: 600px;
+  margin: 1.5em auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-main {
+    margin: 1.5em .5em;
+  }
+}
+
+.fh5co-tab-content{
+	background-color: #85D9BF;
+
+}
+
+.perfil img{
+	border-radius: 50%;
+	box-shadow: 6px 6px 6px #333; 
+}
+
+.fh5co-number.fh5co-left{
+	color:#333;
+}
+
+.fh5co-social{
+	color:#333;
+}
+
+.fh5co-social li a{
+   color: #333;
+  
+}
+@media screen and (max-width: 768px) {
+  .fh5co-social li a {
+    padding: 10px 8px;
+  }
+}
+
+.fh5co-social li a:hover{
+  color: #fff;
+  text-shadow: 6px 6px 6px #333;
+}
+
+.chart span{
+ color:#333;
+}
+
+.postit{
+	position: relative;
+}
+
+
+.nota{
+	width: 25%;
+}
+
+.textoNota{
+	color:#333;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#nota1{
+	position: absolute;
+	top:14%;
+	left:17%;
+	transform: rotate(8deg);
+		  -webkit-transform: rotate(8deg);
+			-moz-transform: rotate(8deg);
+		
+}
+
+#nota2{
+	position: absolute;
+	top:10%;
+	left:53%;
+	transform: rotate(-19deg);
+		 -webkit-transform: rotate(-19deg);
+		-moz-transform: rotate(-19deg);
+}
+
+#nota3{
+	position: absolute;
+	top:57%;
+	left:7%;
+	transform: rotate(-18deg);
+		 -webkit-transform: rotate(-18deg);
+		-moz-transform: rotate(-18deg);
+}
+
+#nota4{
+	position: absolute;
+	top:59%;
+	left:40%;
+	transform: rotate(4deg);
+		-webkit-transform: rotate(4deg);
+		-moz-transform: rotate(4deg);
+}
+
+#nota5{
+	position: absolute;
+	top:47%;
+	left:73%;
+	transform: rotate(-21deg);
+		-webkit-transform: rotate(-21deg);
+			-moz-transform: rotate(-21deg);
+}
+
+@media screen and (max-width: 768px) {
+	.textoNota{
+    font-size: 1.2em;
+  }
+  }
+
+@media screen and (max-width: 450px) {
+	.textoNota{
+    font-size: .7em;
+  }
+  }
+
+.fh5co-feature {
+  text-align: left;
+  width: 100%;
+  float: left;
+}
+.fh5co-feature .fh5co-icon {
+  float: left;
+  width: 10%;
+  display: block;
+  margin-top: 5px;
+}
+.fh5co-feature .fh5co-icon i {
+  color: #333;
+  font-size: 40px;
+}
+.fh5co-feature .fh5co-text {
+  float: right;
+  width: 82%;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-feature .fh5co-text {
+    width: 82%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fh5co-feature .fh5co-text {
+    width: 72%;
+  }
+}
+.fh5co-feature .fh5co-text h2, .fh5co-feature .fh5co-text h3 {
+  margin-top: 6px;
+  padding: 0;
+}
+.fh5co-feature .fh5co-text h3 {
+  font-weight: 300;
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 20px;
+}
+.fh5co-feature .fh5co-text h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.formacion .fh5co-feature .fh5co-text h2{
+  color: #666;
+ }
+
+.formacion .fh5co-feature .fh5co-text p{
+  color: #333;
+}
+
+.bloque{
+	width: 100%;
+	min-height: 150px;
+}
+
+.bloque ul{
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	font-size: .9em;
+}
+
+.bloque i{
+	color:#666;
+}
+
+.bloque .fh5co-text h2{
+	margin-top: 1em;
+	margin-bottom: 1em;	
+}
